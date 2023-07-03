@@ -1,0 +1,33 @@
+img{
+    width:500px;
+    }
+    #idDemo{
+    color:blue;
+    }
+   
+    .section1{
+    color:green;
+    }
+    .form-bt h2 {
+        font-size: 32px;
+        color: yellow;
+        font-weight: 800;
+    }
+    form {
+        color: red;
+    }
+    input.system1 {
+        background-color: blue;
+        padding: 10px;
+        color: white;
+        border-radius: 15px;
+        border: 1px solid;
+        border: none;
+    }
+    th {
+        border: 1px solid;
+        color: green;
+    }
+    table,  td, tr {
+        border: 2px solid blue;
+    }
