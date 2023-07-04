@@ -1,35 +1,152 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        select {
+            height: 35px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        select {
+            width: 63px;
+        }
+        .box {
+           
+            max-width: 450px;
+            margin: auto;
+            padding: 50px;
+            background-color: white;
+            border-radius: 20px;
+            margin-top: 67px;
+        }
+        .box h1 {
+            font-size: 41px;
+            color: black;
+            text-align: center;
+            font-weight: 600;
+        }
+        input#fname {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 11px;
+          width: 40%;
+          font-size: 22px;
+          color:black;
+        }
+        input#surname {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 11px;
+            width: 40%;
+            font-size: 22px;
+            color: black;
+        }
+        input#mobile\ number\ or\ email\ address {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 11px;
+            width: 87%;
+            font-size: 22px;
+            color:black;
+        }
+        
+        .box1 {
+            background-color: #c7c3c3;
+            padding: 30px;
+        }
+        input#password {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 11px;
+            width: 87%;
+            font-size: 22px;
+            color:black; 
+        }
+        select {
+            width: 134px;
+            margin-left: 2px;
+        }
+        
+        lable {
+            color: grey;
+            font-size: 19px;
+        }
+        input#male {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 7px;
+            width: 30%;
+            font-size: 18px;
+        }
+        input#female {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 7px;
+            width: 30%;
+            font-size: 18px;
+        }
+        input#custom {
+            border-radius: 5px;
+            border: 1px solid #a9a2a2;
+            padding: 7px;
+            width: 30%;
+            font-size: 18px;
+        }
+        input[type="submit"] {
+            margin: auto;
+            background-color: green;
+            display: table;
+            padding: 15px 73px;
+        }
+
+    </style>
 </head>
 <body>
-    <form action="topic.html" method="post" >
-       
-        <input type="text" id="fname" name="fname" placeholder="FirstName">
-        
-        <input type="text" id="lname" name="lname" placeholder="LastName"><br><br>
-        
-        <input type="email" id="email" name="email" placeholder="Email" ><br><br>
-
-        <input type="pwd" id="password" name="password" placeholder="Password" ><br><br>
-
-        <input type="phoneNo" id="phoneNo" name="phoneNo" placeholder="PhoneNo" ><br><br>
+    <div class="box1">
+    <div class="box">
+        <h1>Create a new account</h1>
+    <form action="topic.html" method="post">
+        <input type="text" id="fname" name="fname" placeholder="First name">
+        <input type="text" id="surname" name="surname" placeholder="Surname"><br><br>
+        <input type="mobile number or email address" id="mobile number or email address" name="mobile number or email address" placeholder="mobile number or email address"><br><br>
+        <input type="password" id="password" name="password" placeholder="Password"><br><br>
+        <lable for="text">Date of birth:</lable><br><br>
         <select name="DoDate">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<option>6</option>
-<option>7</option>
-<option>8</option>
-<option>9</option>
-<option>10</option>
-<option>11</option>
-<option>12</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
         </select>
         <select name="Month">
             <option>Jan</option>
@@ -37,34 +154,39 @@
             <option>March</option>
             <option>April</option>
             <option>May</option>
-            <option>june</option>
+            <option>June</option>
             <option>July</option>
-            <option>Auguest</option>
+            <option>August</option>
             <option>September</option>
             <option>October</option>
             <option>November</option>
             <option>December</option>
-           
-                    </select>
-                    <select name="Year">
-                        <option>2009</option>
-                        <option>2010</option>
-                        <option>2012</option>
-                        <option>2013</option>
-                        <option>2014</option>
-                        <option>2015</option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
-                        <option>2020</option>
-                        <option>2021</option>
-                                </select>
-                               
-                                <input type="male" id="male" placeholder="male">male:
-                                <input type="female" id="female" placeholder="female">Female:
-        <input type="submit" value="Submit" class="system1">
-       
-      </form>
+        </select>
+        <select name="Year">
+            <option>2009</option>
+            <option>2010</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+        </select>
+        <br><br>
+        <lable for="text">Gender:</lable><br><br>
+        
+        <input type="button" id="male" value="Male" >
+        <input type="button" id="female" value="Female">
+        <input type="button" id="custom" value="Custom">
+        <br><br>
+        <input type="submit" value="Submit" >
+    </form>
+</div>
+</div>
+
 </body>
 </html>
