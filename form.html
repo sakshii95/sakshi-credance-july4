@@ -94,34 +94,27 @@
             color: grey;
             font-size: 19px;
         }
-        input#male {
-            border-radius: 5px;
-            border: 1px solid #a9a2a2;
-            padding: 7px;
-            width: 30%;
-            font-size: 18px;
-        }
-        input#female {
-            border-radius: 5px;
-            border: 1px solid #a9a2a2;
-            padding: 7px;
-            width: 30%;
-            font-size: 18px;
-        }
-        input#custom {
-            border-radius: 5px;
-            border: 1px solid #a9a2a2;
-            padding: 7px;
-            width: 30%;
-            font-size: 18px;
-        }
+       
+        
         input[type="submit"] {
             margin: auto;
             background-color: green;
             display: table;
-            padding: 15px 73px;
+            padding: 14px 60px;
+            font-size: 22px;
         }
-
+       
+        span.spanpad {
+            padding: 8px;
+            border: 1px solid #cdcaca;
+            border-radius: 6px;
+            background-color: #dfdede;
+            margin-left: 38px;
+        }
+        label.gender-bt {
+            color: grey;
+            font-size: 19px; 
+        }
     </style>
 </head>
 <body>
@@ -176,12 +169,25 @@
             <option>2020</option>
             <option>2021</option>
         </select>
-        <br><br>
-        <lable for="text">Gender:</lable><br><br>
-        
-        <input type="button" id="male" value="Male" >
-        <input type="button" id="female" value="Female">
-        <input type="button" id="custom" value="Custom">
+       
+            <label for="gender" class="gender-bt">Gender</label><br><br>
+            <div class="formbox mt1">
+            <span data-type="radio" class="spanpad">
+              <input type="radio" id="fem">
+              <label for="fem" class="gender">Female
+              </label>
+              </span>
+              <span data-type="radio" class="spanpad">
+              <input type="radio" id="male">
+              <label for="male" class="gender">Male
+              </label>
+              </span>
+              <span data-type="radio" class="spanpad">
+              <input type="radio" id="custom">
+              <label for="custom" class="custom">Custom
+              </label>
+            </span>
+          </div>
         <br><br>
         <input type="submit" value="Submit" >
     </form>
