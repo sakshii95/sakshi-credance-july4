@@ -1,37 +1,4 @@
-img{
-    width:500px;
-    }
-    #idDemo{
-    color:blue;
-    }
-   
 
-    .section1{
-    color:green;
-    }
-    .form-bt h2 {
-        font-size: 32px;
-        color: yellow;
-        font-weight: 800;
-    }
-    form {
-        color: red;
-    }
-    input.system1 {
-        background-color: blue;
-        padding: 10px;
-        color: white;
-        border-radius: 15px;
-        border: 1px solid;
-        border: none;
-    }
-    th {
-        border: 1px solid;
-        color: green;
-    }
-    table,  td, tr {
-        border: 2px solid blue;
-    }
      select {
             width: 100%;
             padding: 10px;
@@ -55,7 +22,9 @@ img{
         select {
             width: 63px;
         }
-        .box {
+        
+       
+        .my-form {
            
             max-width: 450px;
             margin: auto;
@@ -63,8 +32,9 @@ img{
             background-color: white;
             border-radius: 20px;
             margin-top: 67px;
+            background-image: url(/home/manik/Downloads/high-angle-empty-chairs-around-bonfire.jpg);
         }
-        .box h1 {
+        .my-form1 h1 {
             font-size: 41px;
             color: black;
             text-align: center;
@@ -137,3 +107,4 @@ img{
             color: grey;
             font-size: 19px; 
         }
+        
