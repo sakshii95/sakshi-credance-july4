@@ -137,6 +137,6 @@ img{
         margin-left: 38px;
     }
     label.gender-bt {
-        color: grey;
+        color: rgb(00ff00, ff0000, 0000ff);
         font-size: 19px; 
     }
