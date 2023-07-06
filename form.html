@@ -23,7 +23,7 @@
         <input type="email" id="email" placeholder="mobile number or email address"><br><br>
         <input type="password" id="pwd"  placeholder="Password"><br><br>
         <lable>Date of birth:</lable><br><br>
-        <select name="DoDate">
+        <select name="DoDate" >
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -37,7 +37,7 @@
             <option>11</option>
             <option>12</option>
         </select>
-        <select name="Month">
+        <select name="Month" >
             <option>Jan</option>
             <option>Feb</option>
             <option>March</option>
@@ -65,8 +65,8 @@
             <option>2020</option>
             <option>2021</option>
         </select>
-       
-            <label for="gender" class="gender-bt">Gender</label><br><br>
+       <!-- <div class="people">
+            <label for="gender">Gender</label><br><br>
             <div class="formbox mt1">
             <span data-type="radio" class="spanpad">
               <input type="radio" id="female">
@@ -80,10 +80,20 @@
               </span>
               <span data-type="radio" class="spanpad">
               <input type="radio" id="custom">
-              <label for="custom" class="custom">Custom
+              <label for="custom">Custom
               </label>
             </span>
           </div>
+        </div> -->
+        <lable for="gender">Gender</lable>
+<lable for="male">
+<input type="radio" value="gender" id="male">Male
+</lable>
+<lable for="female">
+    <input type="radio" value="gender" id="female">Female
+    </lable>
+
+
         <br><br>
         <input type="submit" value="Submit" >
     </form>
